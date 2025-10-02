@@ -12,10 +12,39 @@
         width: 100%;
         height: 100%;
         margin: 0;
+        padding: 0;
+      }
+
+      body {
+        overflow: hidden;
+      }
+
+      .email {
+        font-family: "SF Mono", "Monaco", "Menlo", monospace;
+        font-size: 10px;
+        line-height: 12px;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        padding-left: 20px;
+        z-index: 10;
+        mix-blend-mode: difference;
+        color: white;
+      }
+
+      .email a {
+        color: inherit;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
+    <div class="email">
+      ANTOINE CAILLET<br>
+      PAGE PERSONNELLE<br>
+      <a href="https://ultro.agency">ULTRO.FR</a><br>
+      HELLO@CEER.FR
+    </div>
     <div id="unicorn"
       data-us-project="TFOvnhCWQOhqrZYIE353"
       style="width: 100%; height: 100%"
